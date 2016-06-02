@@ -2,8 +2,31 @@ TDU プロコン勉強会資料
 ===
 
 # ソースコード
-## C++
-[ここ](https://github.com/elzup/tdu_procon_lecture/tree/cpp)
+### C++
+[./cpp](./cpp)
 
-## Java
-[ここ](https://github.com/elzup/tdu_procon_lecture/tree/java)
+### Java
+[./java](./java)
+
+---
+
+# 講義
+
+### chap02
+
+|||
+|--------------|----------------------------|
+| 深さ優先探索 | ./src/chap02/dfs/Main.java |
+
+### chap03
+
+|||
+|--------------------|---------------------------------|
+| ダイクストラ       | ./src/chap03/dijkstra/Main.java |
+| ワーシャルフロイド | ./src/chap03/wf/Main.java       |
+
+### chap04
+
+|||
+|--------------------|---------------------------------|
+| 二分探索       |  |
