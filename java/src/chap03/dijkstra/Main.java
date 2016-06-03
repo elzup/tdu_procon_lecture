@@ -13,7 +13,6 @@ public class Main {
         int ve = sc.nextInt();
         int s = sc.nextInt();
 
-        // List<Edge>[] edges = new ArrayList<Edge>[vn];
         List<List<Edge>> edges = new ArrayList<>();
 
         for (int i = 0; i < vn; i++) {
