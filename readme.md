@@ -5,12 +5,13 @@ TDU プロコン勉強会資料
 # 講義
 
 
-| chap    | algorithm               | java                                 | cpp                       |
-| :-----: | :---------------------- | :---                                 | :-----                    |
-| #1      | 深さ優先探索            | ./java/src/chap02/dfs/Main.java      | ./cpp/chap02_dfs.cpp      |
-| #2      | ダイクストラ            | ./java/src/chap03/dijkstra/Main.java | ./cpp/chap03_dijkstra.cpp |
-| #2      | ワーシャルフロイド      | ./java/src/chap03/wf/Main.java       | ./cpp/chap03_wf.cpp       |
-| #3      | 二分探索                |                                      |                           |
+| chap    | algorithm               | java                                     | cpp                            |
+| :-----: | :---------------------- | :---                                     | :-----                         |
+| #1      | 深さ優先探索            | ./java/src/chap02/dfs/Main.java          | ./cpp/chap02_dfs.cpp           |
+| #2      | ダイクストラ            | ./java/src/chap03/dijkstra/Main.java     | ./cpp/chap03_dijkstra.cpp      |
+| #2      | ワーシャルフロイド      | ./java/src/chap03/wf/Main.java           | ./cpp/chap03_wf.cpp            |
+| #3      | 線形探索                | ./java/src/chap04/linersearch/Main.java  | ./cpp/chap04_liner_search.cpp  |
+| #3      | 二分探索                | ./java/src/chap04/binarysearch/Main.java | ./cpp/chap04_binary_search.cpp |
 
 
 # 問題リンク
