@@ -1,3 +1,6 @@
+// 線形探索
+// http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_4_A&lang=jp
+
 #include <iostream>
 
 using namespace std;

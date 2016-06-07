@@ -1,3 +1,6 @@
+// 二分探索
+// http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_4_B&lang=jp
+
 #include <iostream>
 
 using namespace std;
@@ -31,10 +34,10 @@ int main() {
         int t;
         cin >> t;
         // original
-        // c += binary_search_contains(t) ? 1 : 0;
+        c += binary_search_contains(t) ? 1 : 0;
 
         // binary_search
-        c += binary_search(a, a + n, t) ? 1 : 0;
+        // c += binary_search(a, a + n, t) ? 1 : 0;
     }
 
     cout << c << endl;
