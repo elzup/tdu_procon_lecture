@@ -1,4 +1,4 @@
-package chap06;
+package chap06.union_find;
 
 import java.util.Scanner;
 
@@ -22,12 +22,14 @@ public class Main {
     }
 
     static class UnionFind {
-        int[] gid;
+        int[] gid, rank;
 
         UnionFind(int n) {
             gid = new int[n];
+            rank = new int[n];
             for (int i = 0; i < n; i++) {
                 gid[i] = i;
+                rank[i] = 0;
             }
         }
 
@@ -48,8 +50,14 @@ public class Main {
             if (ra == rb) {
                 return;
             }
-            gid[ra] = rb;
+            if (rank[ra] < rank[rb]) {
+                gid[ra] = rb;
+            } else {
+                gid[rb] = ra;
+                if (rank[ra] == rank[rb]) {
+                    rank[ra]++;
+                }
+            }
         }
     }
 }
-
