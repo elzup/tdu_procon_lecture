@@ -16,6 +16,9 @@ TDU プロコン勉強会資料
 | #4      | DP(フィボナッチ:BU)    | ./java/src/chap05/fibonacci/bottomup/Main.java | ./cpp/chap05_fibonacci_bu.cpp  |
 | #4      | DP(ナップサック:TD)    | ./java/src/chap05/knapsack/topdown/Main.java   | ./cpp/chap05_knapsack_td.cpp   |
 | #4      | DP(ナップサック:BU)    | ./java/src/chap05/knapsack/bottomup/Main.java  | ./cpp/chap05_knapsack_bu.cpp   |
+| #5      | UnionFind              | ./java/src/chap06/union_find/Main.java         | ./cpp/chap06_union_find.cpp    |
+| #5      | クラスカル法           | ./java/src/chap06/kruskal/Main.java            | ./cpp/chap06_kruskal.cpp       |
+| #5      | プリム法               | ./java/src/chap06/prim/Main.java               | ./cpp/chap06_prim.cpp          |
 
 
 # 問題リンク
