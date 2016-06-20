@@ -23,7 +23,7 @@ struct UnionFind {
             gid[i] = i;
             rank[i] = 0;
         }
-        groups = 0;
+        groups = n;
     }
 
     int find(int x) {
