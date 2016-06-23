@@ -20,6 +20,9 @@ TDU プロコン勉強会資料
 | #5      | クラスカル法           | ./java/src/chap06/kruskal/Main.java            | ./cpp/chap06_kruskal.cpp       |
 | #5      | プリム法               | ./java/src/chap06/prim/Main.java               | ./cpp/chap06_prim.cpp          |
 
+| #6      | bitDP                  | ./java/src/chap0               | ./cpp/          |
+| #6      | セグメントツリー       | ./java/src/chap0               | ./cpp/          |
+
 
 # 問題リンク
 
