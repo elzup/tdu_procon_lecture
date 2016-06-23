@@ -48,7 +48,7 @@ public class Main {
                 int x = sc.nextInt() - 1;
                 int y = sc.nextInt() - 1;
                 int z = sc.nextInt();
-                // 双方向
+                // 無向グラフ
                 edges[x].add(new Edge(y, z));
                 edges[y].add(new Edge(x, z));
             }
@@ -72,7 +72,7 @@ public class Main {
                         }
                         // 残っているチケット [i] を使った場合
                         int at = p.tickets - (1 << i);
-                        // コストを更新できるならば更新して pq を追加
+                        // コストを更新できるならば更新して pq に追加
 
                         if (dp[e.to][at] > dp[p.v][p.tickets] + e.cost / tickets[i]) {
                             dp[e.to][at] = dp[p.v][p.tickets] + e.cost / tickets[i];

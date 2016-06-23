@@ -19,9 +19,8 @@ TDU プロコン勉強会資料
 | #5      | UnionFind              | ./java/src/chap06/union_find/Main.java         | ./cpp/chap06_union_find.cpp    |
 | #5      | クラスカル法           | ./java/src/chap06/kruskal/Main.java            | ./cpp/chap06_kruskal.cpp       |
 | #5      | プリム法               | ./java/src/chap06/prim/Main.java               | ./cpp/chap06_prim.cpp          |
-
-| #6      | bitDP                  | ./java/src/chap0               | ./cpp/          |
-| #6      | セグメントツリー       | ./java/src/chap0               | ./cpp/          |
+| #6      | bitDP                  | ./java/src/chap07/bitdp/Main.java              | ./cpp/chap07_bitdp.cpp         |
+| #6      | セグメントツリー       | ./java/src/chap07/segument_tree/Main.java      | ./cpp/          |
 
 
 # 問題リンク

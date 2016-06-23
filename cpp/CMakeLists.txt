@@ -3,5 +3,5 @@ project(cpp)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES chap06_kruskal.cpp)
-add_executable(cpp chap06_kruskal.cpp)
+set(SOURCE_FILES chap07_bitdp.cpp)
+add_executable(cpp chap07_bitdp.cpp)
